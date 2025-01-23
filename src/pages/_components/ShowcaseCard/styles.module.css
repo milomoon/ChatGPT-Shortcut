@@ -5,6 +5,39 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+.showcaseCardBody {
+  max-height: 300px;
+  overflow-y: auto;
+  font-size: smaller;
+  line-height: 1.66;
+
+  /* Scrollbar styles */
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent; /* transparent scrollbar until hovered over */
+}
+
+.showcaseCardBody:hover {
+  /* Show scrollbar when hovering over the element */
+  scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.1);
+}
+
+/* For Webkit browsers like Chrome and Safari */
+.showcaseCardBody::-webkit-scrollbar {
+  width: 8px;
+}
+
+.showcaseCardBody::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.showcaseCardBody::-webkit-scrollbar-thumb {
+  background-color: transparent; /* transparent scrollbar until hovered over */
+}
+
+.showcaseCardBody:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5); /* Show scrollbar when hovering over the element */
+}
+
 .showcaseCardImage {
   overflow: hidden;
   height: 150px;
@@ -17,7 +50,16 @@
   margin-bottom: 12px;
 }
 
+.shortEllipsisMy {
+  max-width: 85%;
+}
+.shortEllipsis {
+  max-width: 100%;
+}
+
 .showcaseCardTitle {
+  font-size: 1em;
+  font-weight: bold;
   margin-bottom: 0;
   flex: 1 1 auto;
 }
@@ -63,11 +105,6 @@
 
 [data-theme='dark'] .showcaseCardSrcBtn:hover {
   background-color: var(--ifm-color-emphasis-300) !important;
-}
-
-.showcaseCardBody {
-  font-size: smaller;
-  line-height: 1.66;
 }
 
 .cardFooter {

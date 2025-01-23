@@ -6,9 +6,19 @@ module.exports = function () {
       return {
         postBodyTags: [
           {
+            tagName: "link",
+            attributes: {
+              rel: "preload",
+              href: "https://oss.newzone.top/instantpage.min.js",
+              as: "script",
+              crossorigin: "anonymous",
+            },
+          },
+          {
             tagName: "script",
             attributes: {
-              src: "https://cdn.staticfile.org/instant.page/5.1.1/instantpage.min.js",
+              src: "https://oss.newzone.top/instantpage.min.js",
+              type: "module",
             },
           },
         ],

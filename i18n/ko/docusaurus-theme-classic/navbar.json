@@ -1,0 +1,58 @@
+{
+  "title": {
+    "message": "AI Short",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "ChatGPT Shortcuts",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.📘 使用说明": {
+    "message": "📘 문서",
+    "description": "Navbar item with label 📘 使用说明"
+  },
+  "item.label.🏘️ 社区提示词": {
+    "message": "🏘️ 커뮤니티 프롬프트",
+    "description": "Navbar item with label 🏘️ 社区提示词"
+  },
+  "item.label.🛠️ 应用工具": {
+    "message": "🛠️ 도구",
+    "description": "Navbar item with label 🛠️ 应用工具"
+  },
+  "item.label.IMGPrompt": {
+    "message": "IMGPrompt",
+    "description": "Navbar item with label IMGPrompt"
+  },
+  "item.label.文字处理": {
+    "message": "기타 도구",
+    "description": "Navbar item with label 文字处理"
+  },
+  "item.label.工具收藏": {
+    "message": "도구 모음",
+    "description": "Navbar item with label 工具收藏"
+  },
+  "item.label.Find on Product Hunt": {
+    "message": "Product Hunt 에서 찾기",
+    "description": "Navbar item with label Find on Product Hunt"
+  },
+  "item.label.反馈建议": {
+    "message": "피드백",
+    "description": "Navbar item with label 反馈建议"
+  },
+  "item.label.📝 提交反馈": {
+    "message": "📝 피드백 제출",
+    "description": "Navbar item with label 📝 提交反馈"
+  },
+  "item.label.💬 加入 QQ 群": {
+    "message": "💬 QQ 에서 채팅하기",
+    "description": "Navbar item with label 💬 加入 QQ 群"
+  },
+  "item.label.📺 加入 Discord": {
+    "message": "📺 Discord 에 참여하기",
+    "description": "Navbar item with label 📺 加入 Discord"
+  },
+  "item.label.脚本扩展": {
+    "message": "확장 기능",
+    "description": "Navbar item with label 脚本扩展"
+  }
+}
